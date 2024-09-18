@@ -1,2 +1,6 @@
 //your JS code here. If required.
-id.toUpperCase()
+const inputField = document.getELmentById("fname");
+inputField.addEventListener('blur',() => {
+	inputField.value= inputField.value.toUpperCase();
+	
+});
