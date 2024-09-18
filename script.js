@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const inputField = document.getElmentById("fname");
+const inputField = document.getElementById("fname");
 inputField.addEventListener('blur',() => {
 	inputField.value= inputField.value.toUpperCase();
 	
